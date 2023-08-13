@@ -1,0 +1,36 @@
+{
+    "manufacturer": "Nils F\u00fcrni\u00df",
+    "keyboard_name": "meishi",
+    "maintainer": "nalsai",
+    "development_board": "promicro",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["D7", "E6", "B4", "B5"]
+        ]
+    },
+    "url": "https://en.nalsai.de/meishi/",
+    "usb": {
+        "device_version": "0.1.0",
+        "vid": "0x4E46",
+        "pid": "0x0001"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 3], "x": 3, "y": 0}
+            ]
+        }
+    }
+}
